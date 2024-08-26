@@ -11,7 +11,7 @@ import { MainLayout } from "./Layouts/MainLayout.jsx";
 const App = () => {
   return (
     <>
-      <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+      <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[4vw]">
         <Routes>
           <Route
             path="/"
