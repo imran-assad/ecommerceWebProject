@@ -8,6 +8,7 @@ import Products from "./pages/Products.jsx";
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import { MainLayout } from "./Layouts/MainLayout.jsx";
+import { ErrorPage } from "./pages/ErrorPage.jsx";
 const App = () => {
   return (
     <>
@@ -53,6 +54,7 @@ const App = () => {
               </MainLayout>
             }
           ></Route>
+          <Route path="*" element={<ErrorPage />}></Route>
         </Routes>
       </div>
     </>
